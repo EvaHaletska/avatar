@@ -4,163 +4,170 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Avatar</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swaprel="stylesheet>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw=="crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="body">
     <header class="header">
+        <div class="container header-box">
+            <a href="./index.html" class="header-logo"><img src="./img/logo.webp" alt="logo"></a>
+            <nav class="header-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Головна</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">про нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Контакти</a></li>
+                </ul>
+            </nav>
 
-        <a href="./index.html" class="header-logo"><img src="./img/logo.webp" alt=""></a>
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li class="nav-item"><a class="nav-link" href="./index.html">Головна</a></li>
-                <li class="nav-item"><a class="nav-link" href="">про нас</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Контакти</a></li>
+
+
+            <ul class="header-list">
+                <li class="header-item"><button class="nav-button">Увійти</button></li>
+                <li class="header-item">
+                    <ul class="language-text">
+                        <li class="language-item"><a class="language-link" href="./second.html">
+                                <p class="language-camption">ENG</p>
+                            </a>
+                        <li class="language-item"><img class="language-photo" src="./img/switcher.png" alt="switcher">
+                        </li>
+                        <li class="language-item"><a class="language-link" href="./index.html">
+                                <p class="language-camption">UA</p>
+                            </a>
+                    </ul>
+
             </ul>
-        </nav>
-        <ul class="header-list">
-           
-            <li class="header-item"><a class="header-link" href=""><button class="header-button">Увійти</button></a>
-            </li>
-            <li class="header-item2"><a class="header-link2" href="">eng <img class="switcher" src="./img/Switcher.png" alt=""> ua</a></li>
-    </ul>
+
+
+        </div>
     </header>
     <main>
-        <!--секція hero-->
+
         <section class="hero">
-            <ul class="hero-list">
-                <li class="hero-text">Oe perlltxe hu tsamsiyu!
-                    Ngari hu Eywa salew tirea,
-                    tokx 'ì'awn slu Na'viyä hapxì.
-                    Säwem nìayoeng!</li>
-
-                <li><img class="hero-img" src="./img/ctrilahero.png" alt=""></li>
-
-                <li  class="hero-text2">Хоробрий воїне, звертаюсь до тебе!
-                    Твій дух йде з Ейвою,
-                    твоє тіло залишається,
-                    щоб стати частиною Народу.
-                    Борись разом з нами!</li>
-
-                <li><button class="header-button2">Приєднатися до клану</button></li>
-            </ul>
-            <ul class="hero-imges">
-                <li><img class="hero-instagtam" src="./img/insthero.png" alt=""></li>
-                <li><img class="hero-twitter" src="./img/twitterhero.png" alt=""></li>
-                <li><img class="hero-youtube" src="./img/youtubehero.png" alt=""></li>
-            </ul>
+            <div class="container hero-wrap">
+                <diva class="hero-box">
+                    <h4 class="hero-text">Oe perlltxe hu tsamsiyu! Ngari hu Eywa salew tirea, tokx 'ì'awn slu Na'viyä
+                        hapxì Säwem nìayoeng!</h4>
+                    <img class="hero-img" src="./img/arrow.png" alt="strila">
+                    <h4 class="hero-text2">Хоробрий воїне, звертаюсь до тебе!<br> Твій дух йде з Ейвою,<br> твоє тіло
+                        залишається,<br> щоб стати частиною Народу.<br> Борись разом з нами!</h4>
+                    <button class="hero-btn" type="button">Приєднатися до клану</button>
+                </diva>
+                <ul class="hero-list">
+                    <li class="list-item"><a class="item-link" target="_blank" href=""><img src="./img/insthero.png"
+                                alt="inst"></a></li>
+                    <li class="list-item"><a class="item-link" target="_blank" href=""><img src="./img/twitterhero.png"
+                                alt="twitter"></a></li>
+                    <li class="list-item"><a class="item-link" target="_blank" href=""><img src="./img/youtubehero.png"
+                                alt="youtube"></a></li>
+                </ul>
+            </div>
         </section>
 
-        <section class="note1">
-            <nav>
-            <ul class="nav-list1">
-                <li class="nav-item2">
-                    <p>“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ</p>
-                </li>
-                <li class="nav-item3">
-                    <p>ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” </p>
-                </li>
-                <li class="nav-name">
-                    <p>Джейк Саллі</p>
-                </li>
-                <li><img class="nav-img" src="./img/2bird.png" alt="bird">
-                </li>
-            </ul>
-        </nav>
+        <section class="note">
+            <div class="container">
+                <blockquote class="note-blc">
+                    <p class="blc-text2">“БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ</p>
+                    <p class="blc-text">ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” </p>
+                    <cite class="blc-cite">Джейк Саллі</cite>
+                </blockquote>
+                <img class="note-img" src="./img/sfivebird.png" alt="Bird">
+            </div>
         </section>
 
         <section class="trailer">
-            <div class="trailer-container">
-            <div class="trailer-button"><button class="trailer-btn">Дивитись трейлер</button></div>
-        </div>
-    </section>
+            <div class="container">
+                <div class="trailer-button"><button class="trailer-btn">Дивитись трейлер</button></div>
+            </div>
+        </section>
 
-        <section class="note2">
-            <ul>
-                <li class="note-text">
-                    <p>“ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ</p>
-                </li>
-                <li class="note-text2">
-                    <p> ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”</p>
-                </li>
-                <li class="note-name">
-                    <p>Джейк Саллі</p>
-                </li>
-                <li><img class="note-img" src="" alt="bird">
-                </li>
-            </ul>
+
+        <section class="note">
+            <div class="container">
+                <blockquote class="note-blc">
+                    <p class="blc-text2">““ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ</p>
+                    <p class="blc-text">ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.” </p>
+                    <cite class="blc-cite">Джейк Саллі</cite>
+                </blockquote>
+                <img class="note-img" src="./img/sfivebird.png" alt="Bird">
+            </div>
         </section>
+
         <section class="navi">
-            <p class="navi-title">Вчимо мову На’ві</p>
-            <ul class="card-list">
-                <li class="card-item">
-                    <p class="navi-text">Привіт</p>
-                    <img style="padding-top: 31px;  padding-left: 84px; padding-right: 84px;" src="./img/sfivestrila.png" alt="">
-                    <p class="navi-text2">Kaltxì</p>
-                </li>
-                <li class="card-item">
-                    <p class="navi-text">Як справи?</p>
-                    <img style="padding-top: 31px; padding-left: 84px; padding-right: 84px;" src="./img/sfivebird.png" alt="">
-                    <p class="navi-text2">Ngaru lu fpom srak?</p>
-                </li>
-                <li class="card-item">
-                    <p class="navi-text">Все добре</p>
-                    <img style="padding-top: 31px; padding-left: 84px; padding-right: 84px;" src="./img/sfivebirdt.png" alt="">
-                    <p class="navi-text2">Lu fpom</p>
-                </li>
-                <li class="card-item">
-                    <p class="navi-text">Дякую</p>
-                    <img style="padding-top: 31px; padding-right: 85px; padding-left: 83px;" src="./img/sfivestrila.png" alt="">
-                    <p class="navi-text2">Irayo si </p>
-                </li>
-                <li class="card-item">
-                    <p class="navi-text">Я бачу тебе</p>
-                    <img style="padding-top: 31px;  padding-left: 84px; padding-right: 84px;" src="./img/sfivebird.png" alt="">
-                    <p class="navi-text2">Oel ngati kameie</p>
-                </li>
-                <li class="card-item">
-                    <p class="navi-text">Слідуй за мною!</p>
-                    <img style="padding-top: 34px; padding-left: 84px; padding-right: 84px;" src="./img/sfivebirdt.png" alt="">
-                    <p class="navi-text2">Nong oet!</p>
-                </li>
-            </ul>
+            <div class="container">
+                <p class="navi-title">Вчимо мову На’ві</p>
+                <ul class="card-list" style="padding-bottom: 57px;">
+                    <li class="card-item">
+                        <p class="navi-text">Привіт</p>
+                        <img class="navi-img" style=" height: 40px;" src="./img/sfivestrila.png" alt="strila">
+                        <p class="navi-text2">Kaltxì</p>
+                    </li>
+                    <li class="card-item">
+                        <p class="navi-text">Як справи?</p>
+                        <img class="navi-img" src="./img/sfivebird.png" alt="bird">
+                        <p class="navi-text2">Ngaru lu fpom srak?</p>
+                    </li>
+                    <li class="card-item">
+                        <p class="navi-text">Все добре</p>
+                        <img class="navi-img" style="height: 40px;" src="./img/strilaright.png" alt="bird">
+                        <p class="navi-text2">Lu fpom</p>
+                    </li>
+                    <li class="card-item">
+                        <p class="navi-text">Дякую</p>
+                        <img class="navi-img" style="height: 40px;" src="./img/sfivestrila.png" alt="strila">
+                        <p class="navi-text2">Irayo si </p>
+                    </li>
+                    <li class="card-item">
+                        <p class="navi-text">Я бачу тебе</p>
+                        <img class="navi-img" style="height: 40px;" src="./img/sfivebird.png" alt="bird">
+                        <p class="navi-text2">Oel ngati kameie</p>
+                    </li>
+                    <li class="card-item">
+                        <p class="navi-text">Слідуй за мною!</p>
+                        <img class="navi-img" style="height: 40px;" src="./img/strilaright.png" alt="bird">
+                        <p class="navi-text2">Nong oet!</p>
+                    </li>
+
+                </ul>
+            </div>
         </section>
-        <section  class="note3">
-            <ul>
-                <li class="note3-item">
-                    <p>“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,</p>
-                </li>
-                <li class="note3-item2">
-                    <p>ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”</p>
-                </li>
-                <li class="note3-item3">
-                    <p>Нейтірі</p>
-                </li>
-                <li><img class="note3-img" src="" alt="bird">
-                </li>
-            </ul>
+
+        <section class="note">
+            <div class="container">
+                <blockquote class="note-blc">
+                    <p class="blc-text2">“НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ,</p>
+                    <p class="blc-text">ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.” </p>
+                    <cite class="blc-cite">Нейтірі</cite>
+                </blockquote>
+                <img class="note-img" src="./img/sfivebird.png" alt="Bird">
+            </div>
         </section>
     </main>
+
     <footer class="footer">
-        <div class="container">
-            <a class="header-logo" href="#"><img src="./img/logo.webp" alt="logo" class="logo-img"></a>
+        <div class="container footer-web">
+            <a class="footer-logo" href="./index.html"><img src="./img/logo.webp" alt="logo"></a>
+            <div class="footer-div"></div>
+            <div class="footer-box">
+                <ul class="footer-list">
+                    <li class="footer-itm">
+                        <p class="footer-txt">Q&A E-mail - - - - - - - - - - - - - - - - - - - - - - - </p>
+                        <p class="footer-text"> avatartwowqa@gmail.com</p>
+                    </li>
+                    <li class="footer-item">
+                        <p class="footer-txt">Cooperation E-mail - - - - - - - - - - - - - - - - </p>
+                        <p class="footer-text"> avatartwowcoop@gmail.com</p>
+                    </li>
+                </ul>
+                <p class="footer-p">&#xa9;2023 Avatar: The Way Of Water. All rights reserved</p>
+            </div>
         </div>
-        <ul class="email-list">
-            <li class="email-item"><p class="email-text">Q&A E-mail</p></li>
-            <img src="" alt="">
-            <li class="email-item"><p class="email-text">avatartwowqa@gmail.com</p></li>
-            
-            <li class="email-item"><p class="email-text">Cooperation E-mail</p></li>
-            <img src="" alt="">
-            <li class="email-item"><p class="email-text">avatartwowcoop@gmail.com</p></li>
-            
-        </ul>
-       
     </footer>
 </body>
 
